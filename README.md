@@ -1,5 +1,5 @@
 # RewardSystem
- reward system tutorial from the UnityToBrain Channel
+Reward System tutorial from the UnityToBrain Channel
  
  Watch Link:
  https://www.youtube.com/watch?v=ZoNDcgacF2M&t=68s
