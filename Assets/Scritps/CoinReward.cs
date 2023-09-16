@@ -59,10 +59,10 @@ public class CoinReward : MonoBehaviour
             counter.transform.parent.GetChild(0).transform.DOScale(1.1f, 0.1f).SetLoops(10,LoopType.Yoyo).SetEase(Ease.InOutSine).SetDelay(1.2f);
         }
 
-        StartCoroutine(CountDollars());
+        StartCoroutine(countCoins());
     }
     
-    IEnumerator CountDollars()
+    IEnumerator countCoins()
     {
         yield return new WaitForSecondsRealtime(2f);
         counter.text = PlayerPrefs.GetFloat("reward").ToString();
